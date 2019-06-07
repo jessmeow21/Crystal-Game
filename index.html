@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Crystal Collector</h1>
+    </header>
+    <!-- game container -->
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col" id="lead"><strong>Rules</strong>
+                <p>You'll get a random number at the start of the game. There are four
+                    crystals. By clicking on a crystal you will add a specific amount of points to your total
+                    score.
+
+                    If your total score matches the random number, you win. You lose if your total score goes
+                    above the random number.
+
+                    The value of each crystal is hidden from you until you click on it.
+
+                    Each time when the game starts, the game will change the values of each crystal. Good luck!
+                    :D</p>
+            </div>
+            <div class="col" id="randomnum"><strong>Random Number</strong></div>
+            <div class="w-100"></div>
+
+
+            <!-- Scoreboar -->
+            <div class="col" id="scoreboard"><strong>Scoreboard</strong>
+                <p class="wins">Wins:</p>
+                <p class="losses">Losses:</p>
+                <p class="Total Score">Total Score: </p>
+            </div>
+
+
+            <!-- Jewels -->
+            <div class="col" id="jewels">
+                <div class="jewl1">
+                    <img src="https://img.pngio.com/image-jewelpng-bradlys-double-7-wiki-fandom-powered-by-wikia-jewel-png-256_256.png"
+                        alt="jewel1" width="100px">
+                </div>
+                <div class="jewl2">
+                    <img src="https://images.vexels.com/media/users/3/151693/isolated/lists/50f0eeeea2af609d34c346942d24cb47-diamond-jewel-flat-icon.png"
+                        alt="jewel2" width="100px">
+
+                </div>
+                <div class="jewl3">
+                    <img src="http://cdn.tutsplus.com/net/uploads/legacy/417_ruby/images/ruby.png" alt="jewel3"
+                        width="80px">
+                </div>
+                <div class="jewl4">
+                    <img src="https://img.informer.com/icons/png/128/647/647988.png" alt="jewel4" width="80px">
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <br>
+        <footer></footer>
+
+        <script src=" assets/javascript/game.js"> </script>
+</body>
+
+</html>

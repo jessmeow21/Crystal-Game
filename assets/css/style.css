@@ -1,0 +1,65 @@
+/* game css */
+
+body {
+    background-image: url("http://sfwallpaper.com/images/velvet-wallpapers-14.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+header {
+    margin: 0 auto;
+    background-color: #D7DBDD;
+    padding: 20px;
+}
+
+/* Coloumns */
+#lead {
+    background-color: pink;
+    text-align: center;
+}
+
+#scoreboard {
+    background-color: #FADBD8;
+    text-align: center;
+}
+
+#randomnum {
+    background-color: #EBDEF0;
+    text-align: center;
+}
+
+#jewels {
+    background-color: #FAE5D3;
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+.leadbox {
+    background-color: beige;
+}
+
+
+/* crystal images */
+.crystals {
+    border: 2px solid black;
+    width: 960px;
+
+}
+
+.row {
+    margin: 0 auto;
+}
+.sub-row {
+    margin: 0 ;
+}
+
+
