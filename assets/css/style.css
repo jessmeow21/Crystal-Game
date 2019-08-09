@@ -1,24 +1,26 @@
 /* game css */
+.container {
+    
+}
 
 body {
-    background-image: url("http://sfwallpaper.com/images/velvet-wallpapers-14.jpg");
+    background-image: url("https://i.ibb.co/k0FRyKH/crystalbkgd.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
-
-
 header {
     margin: 0 auto;
-    background-color: #D7DBDD;
     padding: 20px;
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 0px 0px 25px 25px;
 }
 
 .jewelBox {
+    /* need to be responsive */
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-
+    margin-top: 20px;
 }
 .jewel {
     border: 1px solid pink;
@@ -26,6 +28,12 @@ header {
     width: 100px;
     box-shadow: 5px 5px 5px;
 }
+
+@media screen and (orientation: portrait) {
+    img.ri { max-width: 90%; }
+  }
+  
+  
 
 .jewel:hover {
     box-shadow: 10px 10px 10px;
@@ -35,21 +43,25 @@ header {
 #lead {
     background-color: pink;
     text-align: center;
+    border-radius: 50px 0px 0px 0px;
 }
 
 #scoreboard {
     background-color: #FADBD8;
     text-align: center;
+    border-radius: 0px 0px 0px 50px;
 }
 
 #randomnum {
     background-color: #EBDEF0;
     text-align: center;
+    border-radius: 0px 50px 0px 0px;
 }
 
 #jewels {
     background-color: #FAE5D3;
     text-align: center;
+    border-radius: 0px 0px 50px 0px;
 }
 
 h1 {
@@ -58,14 +70,10 @@ h1 {
     text-align: center;
 }
 
-
-
-
 /* crystal images */
 .crystals {
     border: 2px solid black;
     width: 960px;
-
 }
 
 .row {

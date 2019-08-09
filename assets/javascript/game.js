@@ -28,8 +28,7 @@ var startGameReset = function (){
     theRandomNumber = Math.floor(Math.random() * 120) + 19;
 
     $("#randomnum").text("Random Number: " + theRandomNumber); 
-   
-     
+
     
     //I want this for loop to run 4 times. 4 crystals, generating random numbers each.
     for (var i = 0; i < 4; i++) {
@@ -38,8 +37,8 @@ var startGameReset = function (){
         var randomJewelNum = Math.floor(Math.random() * 12) + 1;
         
         var jewel = $("<div>");
-       jewel.attr({"class": "jewel",
-       "jewel-random-num": randomJewelNum
+    jewel.attr({"class": "jewel",
+    "jewel-random-num": randomJewelNum
     });
         jewel.css({
             "background-image": "url('" + jewelImages[i] + "')",
