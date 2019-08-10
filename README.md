@@ -1,7 +1,18 @@
-# unit-4-game
-Using jQuery for developing this game
+# Crystal Game
+
+## About: 
+Crystal Game is a game on the browser window. The user clicks on the crystal images to be able to match the given random number.
+
 1. To begin you must click on the crystals 
-2. Each crystal has its own number
-3. You must match the given random number by clicking on the crystals
-4. If you match, you win. If you go above the random number, you lose.
-5. Have fun.
+2. Each crystal is given its own random number in each refresh
+3. To win you must match the given random number by clicking on the crystals and carefully figuring out the value of each crystal.
+4. If you go above the random number, you lose.
+
+## Technologies Used:
+* JavaScript
+* jQuery
+* Bootstrap
+
+## Design Features
+* Gradient background
+* 
