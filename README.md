@@ -15,3 +15,5 @@ Crystal Game is a game on the browser window. The user clicks on the crystal ima
 * Bootstrap
 
 ## Before and After
+![](before.png)
+![](after.png)
