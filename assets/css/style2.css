@@ -1,5 +1,5 @@
 #one {
-    background-color: wheat;
+    background-color: #FAE5D3;
 }
 
 #two {
@@ -8,4 +8,9 @@
 
 #three {
     background-color: lavender;
+}
+
+#one, #two, #three {
+    text-align: center;
+    border-radius: 15px;
 }
