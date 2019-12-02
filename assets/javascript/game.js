@@ -52,11 +52,6 @@ var startGameReset = function (){
 startGameReset();
 
 
-
-
-
-
-
 //event delegation. New element coming in the dom and with click, passes .jewel function
 $(document).on("click", ".jewel", function (){
 
