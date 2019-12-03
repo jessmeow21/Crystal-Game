@@ -4,6 +4,7 @@ body {
     /* background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; */
+    height: 130vh
 }
 /* header {
     margin: 0 auto;
@@ -27,7 +28,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.7
     border: 1px solid pink;
     height: 100px;
     width: 100px;
-    box-shadow: 5px 5px 5px;
+    box-shadow: 2px 4px 4px;
 }
 
 @media screen and (orientation: portrait) {
@@ -41,30 +42,35 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.7
 /* Coloumns */
 #lead {
     background: rgb(238,174,202);
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
-    border-radius: 50px 0px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
 }
 
 #scoreboard {
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #FADBD8;
     text-align: center;
-    border-radius: 0px 0px 0px 50px;
+    border-radius: 0px 0px 50px 50px;
 }
 
 #randomnum {
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #EBDEF0;
     text-align: center;
-    border-radius: 0px 50px 0px 0px;
-font-size: 50px;
+    border-radius: 0px 0px 0px 0px;
+    font-size: 30px;
 }
 
 #jewels {
-    background-color: #FAE5D3;
     text-align: center;
     border-radius: 0px 0px 50px 0px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
 }
 
 h1 {

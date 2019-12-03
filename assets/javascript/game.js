@@ -1,18 +1,14 @@
-
 var theRandomNumber;
 //Variables for holding scores
 var win = 0;
 var lose = 0;
 var totalScore = 0;
 
-
 // At the start of the game, player will see a random number that they need to match
 //Randum number shown at the start of the game should be between 19-120.
 //I want to get my random number to show in my random number box id="randomnum"
 
-
 //start game with a function 
-
 
 var startGameReset = function (){
 
@@ -82,10 +78,6 @@ $(document).on("click", ".jewel", function (){
         startGameReset();
 }
 });
-
-
-
-
 
 
 //When the player clicks on a crystal it will add a specific amount of points to the players total score. 
