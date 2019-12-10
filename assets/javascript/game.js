@@ -33,9 +33,9 @@ var startGameReset = function (){
         var randomJewelNum = Math.floor(Math.random() * 12) + 1;
         
         var jewel = $("<div>");
-    jewel.attr({"class": "jewel",
-    "jewel-random-num": randomJewelNum
-    });
+        jewel.attr({"class": "jewel",
+        "jewel-random-num": randomJewelNum
+        });
         jewel.css({
             "background-image": "url('" + jewelImages[i] + "')",
             "background-size" : "cover"
