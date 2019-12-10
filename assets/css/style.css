@@ -46,6 +46,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.7
     padding-bottom: 20px;
     text-align: center;
     border-radius: 50px 50px 0px 0px;
+    font-size: 40px;
 }
 
 #scoreboard {
@@ -54,6 +55,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.7
     background-color: #FADBD8;
     text-align: center;
     border-radius: 0px 0px 50px 50px;
+    font-size: 40px;
 }
 
 #randomnum {
